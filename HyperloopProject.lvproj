@@ -22,11 +22,13 @@
 		<Item Name="ArxPaxGauge2.ctl" Type="VI" URL="../ArxPaxGauge2.ctl"/>
 		<Item Name="BlockDiagramControlEnum.ctl" Type="VI" URL="../BlockDiagramControlEnum.ctl"/>
 		<Item Name="CommunicationStatus.ctl" Type="VI" URL="../CommunicationStatus.ctl"/>
-		<Item Name="Illini Hyperloop GUI v3.2.vi" Type="VI" URL="../Illini Hyperloop GUI v3.2.vi"/>
+		<Item Name="Illini Hyperloop GUI v4.0.vi" Type="VI" URL="../Illini Hyperloop GUI v4.0.vi"/>
+		<Item Name="LevitationChart.ctl" Type="VI" URL="../LevitationChart.ctl"/>
 		<Item Name="readTCPDataIn v1.vi" Type="VI" URL="../readTCPDataIn v1.vi"/>
 		<Item Name="sendTCPRequest.vi" Type="VI" URL="../sendTCPRequest.vi"/>
 		<Item Name="StageEnum.ctl" Type="VI" URL="../StageEnum.ctl"/>
 		<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../TCP_NoDelay_Windows.vi"/>
+		<Item Name="TemperatureControl.ctl" Type="VI" URL="../TemperatureControl.ctl"/>
 		<Item Name="UpdateCommunicationStatus.vi" Type="VI" URL="../UpdateCommunicationStatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -55,13 +57,13 @@
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="createArrayFromComma.vi" Type="VI" URL="../createArrayFromComma.vi"/>
-			<Item Name="get8elementsHORIBLE.vi" Type="VI" URL="../get8elementsHORIBLE.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -97,7 +99,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{F26951FB-D55B-4373-B1BD-00FC8D801BB7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Illini Hyperloop GUI v3.2.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -116,6 +118,7 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E8A0F3D1-B6C4-45BF-9985-BE9E158D00F3}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HyperloopGUIBuild_Windows</Property>
+				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -123,7 +126,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9572037B-313B-4015-9553-40B50AD7AB71}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">testapp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/HyperloopGUIBuild_Windows/testapp.exe</Property>
@@ -134,10 +137,10 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/HyperloopGUIBuild_Windows/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1FF01AF9-2E55-49B9-8D3B-6E8A429FAF64}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F33E8743-1D41-41F8-BDA4-2055D2539945}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Illini Hyperloop GUI v3.2.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Illini Hyperloop GUI v4.0.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
