@@ -22,7 +22,7 @@
 		<Item Name="ArxPaxGauge2.ctl" Type="VI" URL="../ArxPaxGauge2.ctl"/>
 		<Item Name="BlockDiagramControlEnum.ctl" Type="VI" URL="../BlockDiagramControlEnum.ctl"/>
 		<Item Name="CommunicationStatus.ctl" Type="VI" URL="../CommunicationStatus.ctl"/>
-		<Item Name="Illini Hyperloop GUI v4.0.vi" Type="VI" URL="../Illini Hyperloop GUI v4.0.vi"/>
+		<Item Name="Illini Hyperloop GUI v5.0.vi" Type="VI" URL="../Illini Hyperloop GUI v5.0.vi"/>
 		<Item Name="LevitationChart.ctl" Type="VI" URL="../LevitationChart.ctl"/>
 		<Item Name="readTCPDataIn v1.vi" Type="VI" URL="../readTCPDataIn v1.vi"/>
 		<Item Name="sendTCPRequest.vi" Type="VI" URL="../sendTCPRequest.vi"/>
@@ -52,6 +52,7 @@
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_AngleManipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/AngleManip/NI_AngleManipulation.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_Robotics_Attitude Picture.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Controls/Attitude Indicator/Attitude Picture/NI_Robotics_Attitude Picture.lvlib"/>
 				<Item Name="NI_Robotics_Control Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Controls/Utilities/NI_Robotics_Control Utilities.lvlib"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
@@ -140,7 +141,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{F33E8743-1D41-41F8-BDA4-2055D2539945}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Illini Hyperloop GUI v4.0.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Illini Hyperloop GUI v5.0.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
