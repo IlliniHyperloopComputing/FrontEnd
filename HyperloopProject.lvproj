@@ -20,8 +20,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ArxPaxGauge2.ctl" Type="VI" URL="../ArxPaxGauge2.ctl"/>
+		<Item Name="Bitshifter.vi" Type="VI" URL="../Bitshifter.vi"/>
 		<Item Name="BlockDiagramControlEnum.ctl" Type="VI" URL="../BlockDiagramControlEnum.ctl"/>
 		<Item Name="CommunicationStatus.ctl" Type="VI" URL="../CommunicationStatus.ctl"/>
+		<Item Name="CreateDouble.vi" Type="VI" URL="../CreateDouble.vi"/>
+		<Item Name="CreateUint16.vi" Type="VI" URL="../CreateUint16.vi"/>
+		<Item Name="CreateUint32.vi" Type="VI" URL="../CreateUint32.vi"/>
 		<Item Name="Illini Hyperloop GUI v5.0.vi" Type="VI" URL="../Illini Hyperloop GUI v5.0.vi"/>
 		<Item Name="LevitationChart.ctl" Type="VI" URL="../LevitationChart.ctl"/>
 		<Item Name="readTCPDataIn v1.vi" Type="VI" URL="../readTCPDataIn v1.vi"/>
@@ -52,7 +56,6 @@
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_AngleManipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/AngleManip/NI_AngleManipulation.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_Robotics_Attitude Picture.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Controls/Attitude Indicator/Attitude Picture/NI_Robotics_Attitude Picture.lvlib"/>
 				<Item Name="NI_Robotics_Control Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Controls/Utilities/NI_Robotics_Control Utilities.lvlib"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
@@ -64,7 +67,6 @@
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="createArrayFromComma.vi" Type="VI" URL="../createArrayFromComma.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
